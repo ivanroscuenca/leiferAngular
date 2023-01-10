@@ -1,0 +1,16 @@
+.logo{
+    width: 90px;
+    height: 50px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color: aliceblue;
+    border-bottom: solid 1px #f1f1f1;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+}
+
