@@ -2,5 +2,7 @@
 
 <!-- *****************LAS CARDS********************************  -->
 <div class="grid">
-<app-card *ngFor="let card of cards"></app-card>
+<app-card [dataEntrante]="detalleVideo" *ngFor="let detalleVideo of listdeVideos"></app-card>
 </div>
+<!-- *****************LISTA DE FAVORITOS********************************  -->
+<app-sidebar></app-sidebar>
